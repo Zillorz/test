@@ -8,13 +8,23 @@
   documentation
 </p>
 <button
+  class="b-lg"
   onclick={() => {
     num += 1;
   }}>+</button
 >
 <span>{num}</span>
 <button
+  class="b-lg"
   onclick={() => {
     num -= 1;
   }}>-</button
 >
+
+<style>
+  .b-lg {
+    width: 3em;
+    height: 3em;
+    font-size: 1em;
+  }
+</style>
